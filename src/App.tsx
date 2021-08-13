@@ -3,7 +3,7 @@ import './App.css';
 import { StarRating } from './starRating';
 
 function App() {
-  return <StarRating />;
+  return <StarRating style={{backgroundColor: 'lightblue'}} onDoubleClick={() => alert("doubleClick")} />;
 }
 
 export default App;
