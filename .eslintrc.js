@@ -26,10 +26,8 @@ module.exports = {
     'react/prop-types': ['off'],
     'no-return-assign': ['off'],
     'import/no-unresolved': 'off',
-    'react/destructuring-assignment': 'off', // propsの分割代入,
+    'react/destructuring-assignment': 'off',
     'no-use-before-define': 'off',
-    'no-param-reassign': ['error', { props: false }], // ReduxToolkitでのstate更新
-    '@typescript-eslint/no-use-before-define': ['error', { variables: false }], // ReduxToolkit、slice内でのアクションの使用
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/ban-types': 'off',
@@ -50,8 +48,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/ban-ts-comment': 'off',
-    // 'no-restricted-imports': ['error', { 'patterns': ['./', '../'] }],
-    // '@typescript-eslint/array-type': ['error', { default: 'array' }],
     'react/jsx-wrap-multilines': [
       'error',
       {
